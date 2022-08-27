@@ -127,7 +127,7 @@
 .itemListImage {
     width: 100px;
     height: 100px;
-    float: left;
+    display: inline-block;
     margin: 30px;
 }
 
