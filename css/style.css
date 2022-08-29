@@ -1,6 +1,6 @@
 /*Navegação Superior*/
 #nav {
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0;
     border-top: #00b8ff solid 1px;
     border-bottom: #00b8ff solid 1px;
@@ -10,10 +10,10 @@
 
 }
 
-.navigationItem{
-    display:inline;
-    padding:0;
-    margin:0 auto;
+.navigationItem {
+    display: inline;
+    padding: 0;
+    margin: 0 auto;
     font-size: 20px;
     padding: 10px;
     text-align: center;
@@ -26,7 +26,7 @@
 /* Título do site */
 
 #siteTitle {
-    margin:40px auto;
+    margin: 40px auto;
     font-size: 40px;
     text-align: center;
     font-weight: 600;
@@ -37,7 +37,7 @@
 
 /*Título da Página */
 #pageTitle {
-    margin:20px auto;
+    margin: 20px auto;
     text-align: center;
     font-size: 30px;
     width: 160px;
@@ -46,16 +46,17 @@
 /*fim Título do site */
 
 /*Sub-título da Página */
-#pageSubTitle{
+#pageSubTitle {
     font-weight: bold;
-    color:#003aa5;
+    color: #003aa5;
 }
+
 /*fim Sub-título da Página */
 
 /*Conteúdo*/
 
 #pageContent {
-    margin:25px auto;
+    margin: 25px auto;
     width: 70%;
 }
 
@@ -64,20 +65,20 @@
     float: left;
     padding: 5px 15px;
     box-sizing: border-box;
-    
+
 }
 
 /*fim conteúdo*/
 
 /*Sub-Conteúdo*/
 #subContent {
-    margin:3% 15%;
-    height:1000px;
+    margin: 3% 15%;
+    height: 1000px;
 }
 
 .listItemTitle {
     display: inline;
-    color:#003aa5
+    color: #003aa5
 }
 
 .listItem img {
@@ -101,18 +102,19 @@
     height: 600px;
     background-color: #fbfcff;
 }
+
 /*fim Sub-Conteúdo*/
 
 /*configurações minha foto*/
 
 #mypic {
-    background-image:url("../images/yo.jpg");
+    background-image: url("../images/yo.jpg");
     background-size: cover;
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    margin:10px auto;
-    
+    margin: 10px auto;
+
 }
 
 #mypic img {
@@ -133,11 +135,11 @@
 
 .contentItems {
 
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0;
     width: 40%;
     height: 100px;
-    
+
 }
 
 .itemListImage img {
@@ -146,7 +148,7 @@
     padding: 5px 15px;
     box-sizing: border-box;
     margin: 0 auto;
-    
+
 }
 
 
@@ -158,26 +160,43 @@
 }
 
 .item {
-    display:inline;
-    padding:5px;
-    margin:0 auto;
+    display: inline;
+    padding: 5px;
+    margin: 0 auto;
     font-size: 20px;
     text-align: center;
     box-sizing: border-box;
 }
+
 /*fim Conteúdo Contato*/
 /* Conteúdo O que faço*/
 
-.list dd {color:#6723c0ce}
-.oQueFacoContainer {height: 500px}
+.list dd {
+    color: #6723c0ce
+}
+
+.oQueFacoContainer {
+    height: 500px
+}
 
 /*fim O que faço*/
 /* Configurações Gerais */
-body {background-color: rgb(255, 255, 255);}
-a {text-decoration: none;color:#003aa5;font-weight: 300px;}
+body {
+    background-color: rgb(255, 255, 255);
+}
 
-a:hover{text-decoration: underline;}
+a {
+    text-decoration: none;
+    color: #003aa5;
+    font-weight: 300px;
+}
 
-body {font-family: 'Roboto', sans-serif;}
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*fim Configurações Gerais */
-
